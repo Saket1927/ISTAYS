@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#111827" />
+  <!-- Yellow dot -->
+  <circle cx="24" cy="14" r="5.5" fill="#F59E0B" />
+  <!-- 'i' lower stem -->
+  <rect x="20" y="23" width="8" height="17" rx="2" fill="#FFFFFF" />
+</svg>
