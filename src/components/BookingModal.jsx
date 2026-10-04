@@ -49,10 +49,8 @@ export const BookingModal = () => {
       return;
     }
 
-    // Generate reference number
-    const ref = `ISTAY-${Math.floor(100000 + Math.random() * 900000)}`;
-    setBookingReference(ref);
-    setIsConfirmed(true);
+    // Global redirect to official Orange Tiger Hospitality reservations portal
+    window.location.href = 'https://www.orangetigerhotels.com/?search';
   };
 
   const handleReset = () => {

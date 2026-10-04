@@ -65,7 +65,8 @@ export const HotelDetail = () => {
 
   const handleContactSubmit = (e) => {
     e.preventDefault();
-    setIsContactSent(true);
+    // Global redirect to official Orange Tiger Hospitality portal
+    window.location.href = 'https://www.orangetigerhotels.com/?search';
   };
 
   return (

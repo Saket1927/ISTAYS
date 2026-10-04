@@ -19,7 +19,8 @@ export const EnquiryModal = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitted(true);
+    // Global redirect to official Orange Tiger Hospitality events & corporate portal
+    window.location.href = 'https://www.orangetigerhotels.com/?search';
   };
 
   const handleReset = () => {

@@ -12,10 +12,8 @@ export const Footer = () => {
 
   const handleNewsletterSubmit = (e) => {
     e.preventDefault();
-    if (email) {
-      setSubscribed(true);
-      setEmail('');
-    }
+    // Global redirect to official Orange Tiger Hospitality portal
+    window.location.href = 'https://www.orangetigerhotels.com/?search';
   };
 
   return (
